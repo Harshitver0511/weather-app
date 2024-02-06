@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(hii.jpg);
+    background-position: center;
+}
+.con{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.container{
+    width: 40%;
+    height: 50vh;
+    background-color: rgb(192, 192, 192);
+    opacity: .7;padding: 2.5rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: .5rem .5rem .25rem rgb(188, 186, 186);
+
+
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.searchbox .search{
+    padding: .8rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    border-radius: .5rem;
+    font-size: large;
+    border: none;
+
+}
+.searchbox .box{
+    padding: .7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: large;
+    border-radius: .4rem;
+    background-color: rgb(4, 206, 4);
+    color: white;
+    border: none;
+}
+.container .detail{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 0;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.minmax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    text-transform: uppercase;
+}

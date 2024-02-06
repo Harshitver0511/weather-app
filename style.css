@@ -70,3 +70,27 @@ body{
 #name{
     text-transform: uppercase;
 }
+@media  screen and (max-width:784px) {
+    .searchbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .5rem;
+    
+    }
+    
+}
+@media  screen and (max-width:524px) {
+    .searchbox .search{
+        padding: .7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: .5rem;
+        font-size:medium;
+        border: none;
+        width: 90%;
+    
+    }
+
+}
